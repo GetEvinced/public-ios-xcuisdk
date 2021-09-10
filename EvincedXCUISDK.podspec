@@ -23,11 +23,11 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://www.evinced.com/'
-  s.license          = { :type => 'CUSTOM', :file => 'LICENSE' }
+  s.license          = { :type => 'CUSTOM', :file => 'EvincedXCUISDK/LICENSE' }
   s.author           = { 'Evinced, Inc.' => 'alambov@evinced.com' }
   s.source           = { :http => 'https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.0.0.zip' }
 
   s.ios.deployment_target = '12.0'
 
-  s.vendored_frameworks = 'EvincedXCUISDK.xcframework'
+  s.vendored_frameworks = 'EvincedXCUISDK/EvincedXCUISDK.xcframework'
 end
