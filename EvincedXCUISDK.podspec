@@ -19,10 +19,9 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Evinced SDK for checking accessibility in iOS UI tests.
-TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://www.evinced.com/'
+  s.homepage         = 'https://github.com/GetEvinced/public-ios-xcuisdk/'
   s.license          = { :type => 'CUSTOM', :file => 'EvincedXCUISDK/LICENSE' }
   s.author           = { 'Evinced, Inc.' => 'alambov@evinced.com' }
   s.source           = { :http => 'https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.0.0.zip' }
