@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Evinced SDK for checking accessibility in iOS UI tests.
-                       DESC
+The Evinced XCUI SDK integrates with new or existing UI tests to automatically detect accessibility issues. With the addition of a few lines of code, you can analyze your entire application to understand how it can become more accessible. At the conclusion of the tests, actionable HTML and JSON reports are generated to track issues in any reporting tool.
+DESC
 
   s.homepage         = 'https://github.com/GetEvinced/public-ios-xcuisdk/'
-  s.license          = { :type => 'CUSTOM', :file => 'EvincedXCUISDK/LICENSE' }
+  s.license          = { :type => 'CUSTOM', :file => 'LICENSE' }
   s.author           = { 'Evinced, Inc.' => 'alambov@evinced.com' }
   s.source           = { :http => 'https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.0.0.zip' }
 
   s.ios.deployment_target = '12.0'
 
-  s.vendored_frameworks = 'EvincedXCUISDK/EvincedXCUISDK.xcframework'
+  s.vendored_frameworks = '**/EvincedXCUISDK.xcframework'
 end
