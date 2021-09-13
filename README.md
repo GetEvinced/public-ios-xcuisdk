@@ -1,11 +1,15 @@
 # Evinced SDK for XCUITests pipelines
 
 ## Introduction
-Evinced SDK is a product automation accessibility testing and analyzing for XCUITest pipelines.
+The Evinced XCUI SDK integrates with new or existing UI tests to automatically detect accessibility issues. With the addition of a few lines of code, you can analyze your entire application to understand how it can become more accessible. At the conclusion of the tests, actionable HTML and JSON reports are generated to track issues in any reporting tool.
 
 ## Getting started
 
 ### Prerequisites
+
+In order to use any of the Evinced Mobile SDKs you first need to create an [Evinced account](https://hub.evinced.com/login). Once your account is created, you will get your apiKey and a matching serviceAccountId. Initialize the SDK with these values it will validate access with Evinced servers when you run your tests.
+If an outbound internet connection is not available in your running environment - contact us at support@evinced.com to get an offline APIKey.
+
 You should have any UI testing set up for your application with usage of pure XCUITest SDK.
 You should add `EvincedXCUISDK` wether via [Cocoapods](https://cocoapods.org/) or [Swift Package Manager](https://swift.org/package-manager/) to your UI tests target.
 
@@ -58,3 +62,6 @@ waitForExpectations(timeout: 5.0)
 
 ### The Evinced Report
 After the test finhishes `EvincedEngine.reportStored(assert:)` would generate accessibility HTML reports which are stored as [test attachments](https://developer.apple.com/documentation/xctest/activities_and_attachments/adding_attachments_to_tests_activities_and_issues). You could check and save them via Xcode GUI or `xcrun xcresulttool ...` CLI command.
+
+### Documentation
+Please see our official [XCUI SDK](https://developer.evinced.com/sdks-for-mobile-apps/xcuitest-sdk) documentation page for more details and examples. 
