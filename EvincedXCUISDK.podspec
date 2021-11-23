@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EvincedXCUISDK'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'Evinced SDK for checking accessibility in iOS UI tests.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ DESC
   s.homepage         = 'https://github.com/GetEvinced/public-ios-xcuisdk/'
   s.license          = { :type => 'CUSTOM', :file => 'LICENSE' }
   s.author           = { 'Evinced, Inc.' => 'alambov@evinced.com' }
-  s.source           = { :http => 'https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.1.1.zip' }
+  s.source           = { :http => 'https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.1.2.zip' }
 
   s.ios.deployment_target = '12.0'
 
