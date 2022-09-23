@@ -1,5 +1,11 @@
 # XCUI SDK Changelog
 
+## [1.7.0] - 2022-09-23
+- Ability to save screenshot into file
+- New functionality added for ability to trace from where report()/analyze() was called
+- stopAnalyze() now creates report of display in continuous mode
+- Stability improvement and bug fix
+
 ## [1.6.0] - 2022-08-23
 - Change log file is added
 - Color Contrast rule configuration is introduced in rule-config
