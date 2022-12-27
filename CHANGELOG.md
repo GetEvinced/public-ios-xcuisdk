@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.8.0] - 2022-12-27
+- Options to make report name as a function name
+- The reportStored() method returns a list of reports
+- Stability improvement and bug fix
+
 ## [1.7.0] - 2022-09-23
 - Ability to save screenshot into file
 - New functionality added for ability to trace from where report()/analyze() was called
