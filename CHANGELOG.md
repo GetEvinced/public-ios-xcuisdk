@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.9.0] - 2023-05-05
+- Add new alternative text validation support
+- Stability improvement and bug fix
+
 ## [1.8.0] - 2022-12-27
 - Options to make report name as a function name
 - The reportStored() method returns a list of reports
