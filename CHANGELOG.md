@@ -1,7 +1,12 @@
 # XCUI SDK Changelog
 
+## [1.10.0] - 2023-05-16
+- Improving color contrast algorithms using OCR technology
+
 ## [1.9.0] - 2023-05-05
 - Add new alternative text validation support
+- Fixed iPadOS support issues
+- Fixed filter issues;
 - Stability improvement and bug fix
 
 ## [1.8.0] - 2022-12-27
