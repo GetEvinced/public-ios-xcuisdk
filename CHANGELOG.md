@@ -1,7 +1,10 @@
 # XCUI SDK Changelog
 
-## [1.11.0] - 2023-05-25
+## [1.11.1] - 2023-05-30
 - Fixed meaningful accessible names and meaningful alternative text logic
+
+## [1.11.0] - 2023-05-25
+- Added validation criteria to JSON and HTML output reports
 
 ## [1.10.0] - 2023-05-16
 - Improving color contrast algorithms using OCR technology
