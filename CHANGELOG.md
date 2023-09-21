@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.11.2] - 2023-09-20
+- Added a new validation (instruction in name)
+- Fixed isAccessibilityElement = false not being recognized
+- Stability improvement
+
 ## [1.11.1] - 2023-05-30
 - Fixed meaningful accessible names and meaningful alternative text logic
 
