@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.12.0] - 2023-10-27
+- Excluded keyboard for accessibility validations
+- Added export of meaningful accessibility labels
+
 ## [1.11.2] - 2023-09-20
 - Added a new validation (instruction in name)
 - Fixed isAccessibilityElement = false not being recognized
