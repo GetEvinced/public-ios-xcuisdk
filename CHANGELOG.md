@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.13.0] - 2023-12-18
+- Stability improvement and bug fix
+
 ## [1.12.0] - 2023-10-27
 - Excluded keyboard for accessibility validations
 - Added export of meaningful accessibility labels
