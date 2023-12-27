@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.14.0] - 2023-12-27
+- Added uploading report feature to Evinced Platform
+
 ## [1.13.0] - 2023-12-18
 - Stability improvement and bug fix
 
