@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.15.0] - 2024-01-15
+- Introduced the deduplication feature for the continuous mode
+
 ## [1.14.0] - 2023-12-27
 - Added uploading report feature to Evinced Platform
 
