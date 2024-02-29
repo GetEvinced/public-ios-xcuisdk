@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.16.0] - 2024-02-29
+- Stability improvement and bug fix
+
 ## [1.15.0] - 2024-01-15
 - Introduced the deduplication feature for the continuous mode
 
