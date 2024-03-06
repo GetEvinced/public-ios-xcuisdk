@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.17.0] - 2024-03-06
+- Added new validations: Dynamic Fonts and Text Clipped
+- Improved Alternative Text validation logic
+- Stability improvement and bug fix
+
 ## [1.16.0] - 2024-02-29
 - Stability improvement and bug fix
 
