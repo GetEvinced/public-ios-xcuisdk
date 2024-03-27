@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.18.1] - 2024-03-27
+- Improved the new HTML representation
+- Improved the special characters validation
+- Stability improvement and bug fix
+
 ## [1.18.0] - 2024-03-14
 - Added improved HTML reports
 
