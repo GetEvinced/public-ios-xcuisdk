@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.18.3] - 2024-04-01
+- Improved the color contrast validation logic
+
 ## [1.18.1] - 2024-03-27
 - Improved the new HTML representation
 - Improved the special characters validation
