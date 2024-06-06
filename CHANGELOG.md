@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.19.1] - 2024-06-06
+- Stability improvement and bug fix
+
 ## [1.19.0] - 2024-04-30
 - Added export of a list of all scanned elements that do not have accessibility issues
 - Stability improvement and bug fix
