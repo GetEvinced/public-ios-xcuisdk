@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.19.2] - 2024-07-05
+- Stability improvement and bug fix
+
 ## [1.19.1] - 2024-06-06
 - Stability improvement and bug fix
 
