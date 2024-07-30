@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.20.0] - 2024-07-30
+- Added Label In Name validation
+- Added Accessible Name Starts With Label validation
+- Added Conflicting Type In Label validation
+
 ## [1.19.2] - 2024-07-05
 - Stability improvement and bug fix
 
