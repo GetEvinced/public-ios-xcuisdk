@@ -1,5 +1,11 @@
 # XCUI SDK Changelog
 
+## [1.21.0] - 2024-08-07
+- Added no issues report as a part of public API
+- Fixed Accessible Name Starts with Label
+- Fixed hiding HTML header tags
+- Fixed HTML report logo for iframes
+
 ## [1.20.0] - 2024-07-30
 - Added Label In Name validation
 - Added Accessible Name Starts With Label validation
