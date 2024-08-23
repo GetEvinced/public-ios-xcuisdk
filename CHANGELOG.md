@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.22.0] - 2024-08-22
+- Introduced EarlGrey 2.0 support for continuous mode
+- Changes Tappable Area validation severity type from “Best Practice“ to “Serious”
+- Stability improvement and bug fix
+
 ## [1.21.0] - 2024-08-07
 - Added no issues report as a part of public API
 - Fixed Accessible Name Starts with Label
