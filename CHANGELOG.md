@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.22.1] - 2024-09-04
+- Improved Tappable Area validation for inline links cases
+- Stability improvement and bug fix
+
 ## [1.22.0] - 2024-08-22
 - Introduced EarlGrey 2.0 support for continuous mode
 - Changes Tappable Area validation severity type from “Best Practice“ to “Serious”
