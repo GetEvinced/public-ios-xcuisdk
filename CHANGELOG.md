@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.23.0] - 2024-10-02
+- Introduced save report strategy feature
+- Stability improvement and bug fix
+
 ## [1.22.1] - 2024-09-04
 - Improved Tappable Area validation for inline links cases
 - Stability improvement and bug fix
