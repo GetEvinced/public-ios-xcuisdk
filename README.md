@@ -45,7 +45,7 @@ override func tearDownWithError() throws {
 }
 ```
 ### Your first test
-In the tests body add invocations of `application.accessibilityAnalyze()` or `application.evAnalyze()` over `XCUIApplication` instance of the tested app at the places/states of the app you want to test. A good place to add testing may be after simulating taps or screen change.
+In the tests body add invocations of `application.evAnalyze()` over `XCUIApplication` instance of the tested app at the places/states of the app you want to test. A good place to add testing may be after simulating taps or screen change.
 After that just run your test suite(s).
 
 #### Async usage
