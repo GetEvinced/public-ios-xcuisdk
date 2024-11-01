@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.23.2] - 2024-11-01
+- Stability improvement
+
 ## [1.23.1] - 2024-10-17
 - Updated open source software license information
 - Stability improvement
