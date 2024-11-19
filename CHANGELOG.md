@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.24.0] - 2024-11-19
+- Added Invalid Range Values validation
+- Stability improvement
+
 ## [1.23.2] - 2024-11-01
 - Stability improvement
 
