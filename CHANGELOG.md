@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.25.0] - 2025-01-27
+- Added AA Validation support for Tappable area
+- Added Export CSV report
+- Stability improvement
+
 ## [1.24.0] - 2024-11-19
 - Added Invalid Range Values validation
 - Stability improvement
