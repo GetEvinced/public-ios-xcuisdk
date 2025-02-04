@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.26.0] - 2025-02-04
+- Added support if the Target Application is not specified in the UITest target
+- Stability improvement
+
 ## [1.25.0] - 2025-01-27
 - Added AA Validation support for Tappable area
 - Added Export CSV report
