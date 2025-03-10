@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.26.1] - 2025-03-10
+- Stability improvement
+
 ## [1.26.0] - 2025-02-04
 - Added support if the Target Application is not specified in the UITest target
 - Stability improvement
