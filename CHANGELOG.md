@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.26.3] - 2025-04-29
+- Stability improvement
+
 ## [1.26.2] - 2025-03-25
 - Improved stability of WebView content validations
 

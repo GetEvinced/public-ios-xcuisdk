@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "EvincedXCUISDK",
-            url: "https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.26.2.zip",
-            checksum: "af463b6d1d148fad2a57519dcfe1838b1b352bd59c1fd7bf4ed3c336211a4e61")
+            url: "https://storage.googleapis.com/evinced-xcui-sdk/EvincedXCUISDK-1.26.3.zip",
+            checksum: "204219442ff2e2529899962c8d2ea8bd779c70d5920ce838c7d6fd90131f659d")
     ]
 )
