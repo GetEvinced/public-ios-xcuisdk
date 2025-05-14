@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.26.4] - 2025-05-14
+- Added support for filtering issues by the Overlapping Controls type
+- Stability improvement
+
 ## [1.26.3] - 2025-04-29
 - Stability improvement
 
