@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.27.0] - 2025-06-15
+- Stability improvement
+- Upgraded the integrated WDA (WebDriverAgent) to the latest version for improved compatibility and ongoing enhancements.
+
 ## [1.26.4] - 2025-05-14
 - Added support for filtering issues by the Overlapping Controls type
 - Stability improvement
