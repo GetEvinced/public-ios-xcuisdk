@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.29.0] - 2025-07-28
+- Added Baseline Report Comparison: You can now compare the results of your latest accessibility scan against a predefined baseline report, making it easier to identify a11y regressions and track changes over time
+- Added Visible Label Validation: New validation that checks whether elements requiring user input have a visible label
+- Stability improvement
+
 ## [1.28.0] - 2025-06-25
 - Stability improvement
 
