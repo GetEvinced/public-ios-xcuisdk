@@ -28,7 +28,7 @@ DESC
   s.changelog        = 'https://raw.githubusercontent.com/GetEvinced/public-ios-xcuisdk/master/CHANGELOG.md'
   s.resource         = 'CHANGELOG.md'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
   s.vendored_frameworks = '**/EvincedXCUISDK.xcframework'
 end
