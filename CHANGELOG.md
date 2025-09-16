@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.31.0] - 2025-09-16
+- Baseline Comparison Enhancements: Introduce new baseline flow, enhance IgnoreFilters capabilities, and Automate test failure logic.
+
 ## [1.30.0] - 2025-09-09
 - Added support for React Native
 - Increased minimum iOS deployment target to 15.0
