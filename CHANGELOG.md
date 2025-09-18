@@ -1,5 +1,8 @@
 # XCUI SDK Changelog
 
+## [1.31.1] - 2025-09-18
+- Improve elements detection for non-visible components.
+
 ## [1.31.0] - 2025-09-16
 - Baseline Comparison Enhancements: Introduce new baseline flow, enhance IgnoreFilters capabilities, and Automate test failure logic.
 
