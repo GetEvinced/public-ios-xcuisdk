@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.31.2] - 2025-10-06
+- Improved Accessible Name and Label In Name validations
+- Stability improvement
+
 ## [1.31.1] - 2025-09-18
 - Improve elements detection for non-visible components.
 
