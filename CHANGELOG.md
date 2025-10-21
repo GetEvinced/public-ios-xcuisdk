@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.31.3] - 2025-10-21
+- Label in Name validation improvement
+- Baseline IgnoreFilter creation ergonomics improvement
+- Deprecated validations: Label Capitalization, Sentence-Like Label, Colliding Controls, Accessibility Not Enabled
+
 ## [1.31.2] - 2025-10-06
 - Improved Accessible Name and Label In Name validations
 - Stability improvement
