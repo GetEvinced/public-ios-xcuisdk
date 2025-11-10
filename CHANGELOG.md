@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [1.31.4] - 2025-11-10
+- Improved Label in Name, Color Contrast and Invalid Range Values validations
+- Stability improvements
+
 ## [1.31.3] - 2025-10-21
 - Label in Name validation improvement
 - Baseline IgnoreFilter creation ergonomics improvement
