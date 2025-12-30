@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.31.5] - 2025-12-30
+- Improved label validation accuracy
+- Added Flutter support
+- Stability improvements
+
 ## [1.31.4] - 2025-11-10
 - Improved Label in Name, Color Contrast and Invalid Range Values validations
 - Stability improvements
