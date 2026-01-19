@@ -1,6 +1,6 @@
 # XCUI SDK Changelog
 
-## [1.31.5] - 2025-12-30
+## [1.31.6] - 2026-01-19
 - Improved label validation accuracy
 - Added Flutter support
 - Stability improvements
