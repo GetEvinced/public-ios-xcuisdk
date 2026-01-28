@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.31.7] - 2026-01-28
+- New feature: configurable compliance mapping, including WCAG, EAA, and Section 508
+- Fix: Tappable Area issues on iOS now use pt (instead of dp) in metadata
+- Stability improvements
+
 ## [1.31.6] - 2026-01-19
 - Improved label validation accuracy
 - Added Flutter support
