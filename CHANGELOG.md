@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## 1.31.9 - 2026-02-12
+
+- Stability improvements
+
 ## 1.31.8 - 2026-02-09
 
 - Fixed report attachment file extensions when custom report names contain dots
