@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## 1.32.0 - 2026-02-26
+
+- New: Added support for an enhanced mobile platform with a refreshed, more intuitive UI
+- Stability improvements
+
 ## 1.31.9 - 2026-02-12
 
 - Stability improvements
