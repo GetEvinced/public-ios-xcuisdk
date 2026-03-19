@@ -1,15 +1,19 @@
 # XCUI SDK Changelog
 
-## 1.32.0 - 2026-02-26
+## [1.32.1] - 2026-03-19
+- Improved Label in Name, Accessible Name and Alternative Text validations
+- Stability improvements
+
+## [1.32.0] - 2026-02-26
 
 - New: Added support for an enhanced mobile platform with a refreshed, more intuitive UI
 - Stability improvements
 
-## 1.31.9 - 2026-02-12
+## [1.31.9] - 2026-02-12
 
 - Stability improvements
 
-## 1.31.8 - 2026-02-09
+## [1.31.8] - 2026-02-09
 
 - Fixed report attachment file extensions when custom report names contain dots
 - Stability improvements
