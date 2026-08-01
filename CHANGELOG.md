@@ -1,5 +1,10 @@
 # XCUI SDK Changelog
 
+## [1.34.0] - 2026-07-31
+
+- Feature: Introduced App Scanner for automated app accessibility scanning
+- Stability improvements
+
 ## [1.33.0] - 2026-06-18
 
 - New validation: Screen Orientation (iOS, WCAG 1.3.4) - detects apps that lock content to a single orientation. Disabled by default.
