@@ -1,5 +1,14 @@
 # XCUI SDK Changelog
 
+## [1.35.0] - 2026-09-01
+
+- New validation: Meaningful Heading — LLM-assisted cloud validation that checks whether each heading accurately describes the content that follows it (WCAG 2.4.6). Disabled by default; enable via `InitOptions.cloudValidations` or per-call on `report()`, `reportStored()`, `stopAnalyze()`, and `evReport()`. Results are flagged for review as LLM-assisted findings.
+- New validation: Conflicting Traits for iOS — flags elements whose accessibility traits contradict one another.
+- Fix: App Scanner crawls hold up better on real apps — the UI settles before capture, and back navigation improves.
+- Fix: App Scanner long scans are safer — lighter recovery after a crash, and the scan stops if free disk space drops below 1 GB.
+- Fix: Reduced false positives and false negatives in the Accessible Name, Type in Label, Label in Name, Visible Labels, and Color Contrast rules (engine 2.18.0).
+- Stability improvements
+
 ## [1.34.0] - 2026-07-31
 
 - Feature: Introduced App Scanner for automated app accessibility scanning
