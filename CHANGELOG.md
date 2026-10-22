@@ -1,5 +1,9 @@
 # XCUI SDK Changelog
 
+## [Unreleased]
+
+- Behavior change: Needs Review issues are included in automation APIs by default (`issues()`, `hasIssues()`, `isOk`, `assert()`, `hasNewIssues()`). Hide them from those APIs with `needsReviewConfig.mode = .reportOnly`. Modes: `.enabled` (default; count in APIs), `.reportOnly` (report only), `.disabled` (do not run Needs Review validations).
+
 ## [1.35.0] - 2026-09-01
 
 - New validation: Meaningful Heading — LLM-assisted cloud validation that checks whether each heading accurately describes the content that follows it (WCAG 2.4.6). Disabled by default; enable via `InitOptions.cloudValidations` or per-call on `report()`, `reportStored()`, `stopAnalyze()`, and `evReport()`. Results are flagged for review as LLM-assisted findings.
