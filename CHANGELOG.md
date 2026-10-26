@@ -1,5 +1,20 @@
 # XCUI SDK Changelog
 
+## [1.36.0] - 2026-10-26
+
+- Feature: Needs Review. Issues that need manual review are tagged in HTML and CSV reports and counted separately in the HTML summary. CSV reports have a new "Needs Review" column after "Severity". Include, exclude and baseline filters can select these issues. Automation APIs count them by default (`issues()`, `hasIssues()`, `isOk`, `assert()`, `hasNewIssues()`). Set `needsReviewConfig.mode` to `.reportOnly` to keep them in saved reports only, or to `.disabled` to remove them from results and reports. The default is `.enabled`.
+- Feature: Needs Review helpers: `Issue.isNeedsReview`, `needsReviewIssues()` and `hasNeedsReviewIssues()` on reports and App Scanner results, `IssueFilter().needsReview()`, and a `needsReview` parameter on `BaselineIgnoreFilter` and `BaselineIssueFilter`.
+- New validation: Meaningful Button, an LLM-assisted cloud validation that checks whether a button's text says what happens when it's activated. It runs with Meaningful Heading whenever cloud validations are enabled and is available as `IssueType.meaningfulButton`. Its issues are marked Needs Review, so by default they count in `issues()` and `assert()`. Set `needsReviewConfig.mode = .reportOnly` to keep them out.
+- Improvement: Label in Name matches words more accurately.
+- Improvement: The error for an expired offline token tells you to contact support@evinced.com for a new one.
+- Improvement: Tappable Area sizes in HTML and CSV reports show up to two decimal places. They used to be rounded to whole numbers.
+- Fix: `IssueType` has the missing `conflictingTraits` case. Conflicting Traits issues have an issue type and can be used in `BaselineIgnoreFilter`.
+- Fix: Meaningful Heading checks headings that sit directly above a tab bar or navigation bar. It used to skip them.
+- Fix: Label detection no longer merges captions that are far apart on one line. An editable text view is no longer labeled by its own text or placeholder.
+- Fix: Ignored by Assistive Technology no longer misses buttons whose title text has the same frame as the button.
+- Fix: App Scanner no longer crashes when it saves an empty app navigation graph.
+- Stability improvements
+
 ## [1.35.0] - 2026-09-01
 
 - New validation: Meaningful Heading — LLM-assisted cloud validation that checks whether each heading accurately describes the content that follows it (WCAG 2.4.6). Disabled by default; enable via `InitOptions.cloudValidations` or per-call on `report()`, `reportStored()`, `stopAnalyze()`, and `evReport()`. Results are flagged for review as LLM-assisted findings.
