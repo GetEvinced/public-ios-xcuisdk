@@ -1,5 +1,13 @@
 # XCUI SDK Changelog
 
+## [1.36.1] - 2026-11-05
+
+- Fix: Interactable Role no longer flags links that announce a link role description, and reports fewer false positives on inline links.
+- Fix: Ignored by Assistive Technology no longer flags a button inside an accessible wrapper that has the same frame.
+- Fix: When `EvincedEngine.testCase` is set, reports and scans are named after the running XCTest method, including when `evAnalyze()` or `reportStored()` is called from a helper or from `tearDown`. They used to take the name of the calling function. Dashboard history for these tests now groups by test name. A `function:` value you pass yourself is kept.
+- Fix: When `report()` or `reportStored()` is called from `setUp` or `tearDown`, the baseline file is named after the test method. If that file doesn't exist yet, compare uses the existing file named after `setUp` or `tearDown`. Baselines saved from the test body or a helper keep their current names.
+- Fix: Simulators are reported as virtual devices, including models the SDK doesn't recognize yet. Added device names for iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, iPhone Air, iPhone 17e, iPhone 18 Pro, iPhone 18 Pro Max, iPhone Duo, iPad Air 11-inch and 13-inch (M4), and iPad Pro 11-inch and 13-inch (M5). An unknown model shows its identifier, for example `Simulator (iPhone18,9)`.
+
 ## [1.36.0] - 2026-10-26
 
 - Feature: Needs Review. Issues that need manual review are tagged in HTML and CSV reports and counted separately in the HTML summary. CSV reports have a new "Needs Review" column after "Severity". Include, exclude and baseline filters can select these issues. Automation APIs count them by default (`issues()`, `hasIssues()`, `isOk`, `assert()`, `hasNewIssues()`). Set `needsReviewConfig.mode` to `.reportOnly` to keep them in saved reports only, or to `.disabled` to remove them from results and reports. The default is `.enabled`.
